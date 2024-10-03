@@ -197,7 +197,7 @@
               "display_exit_code": true
             },
             "style": "powerline",
-            "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\u2714{{ end }} ",
+            "template": " {{ if gt .Code 0 }}\uf00d {{ .Meaning }}{{ else }}\u2714 {{ end }} ",
             "type": "exit"
           },
           {
