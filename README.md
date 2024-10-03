@@ -11,7 +11,7 @@ This theme has been built for [oh-my-posh](https://ohmyposh.dev/). To install an
 - Install git `winget install git.git`
 - Install gsudo `winget install gerardog.gsudo`
 - Install oh-my-posh `winget install JanDeDobbeleer.OhMyPosh`
-- Install the FiraCode Nerd Font with `sudo oh-my-posh font install`
+- Install the FiraCode or CaskaydiaCove Nerd Font with `sudo oh-my-posh font install`
 - Add the following to the PS profile (`code $PROFILE`):
 ```Powershell
 Import-Module posh-git
