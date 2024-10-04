@@ -25,10 +25,10 @@
               "folder_separator_icon": "/",
               "trim_leading_dots": true,
               "trim_prefix": false,
-              "trim_parent_folders": false
+              "trim_parent_folders": true
             },
             "style": "powerline",
-            "template": " \uf07c {{ .Path }} ",
+            "template": " \uf07c {{ if gt (len .Path) 40 }}{{ .Path | trimToLength 40 }}{{ else }}{{ .Path }}{{ end }} ",
             "type": "path"
           },
           {
