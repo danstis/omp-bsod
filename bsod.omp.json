@@ -20,8 +20,8 @@
             "powerline_symbol": "\ue0b0",
             "properties": {
               "home_icon": "~",
-              "style": "powerlevel",
-              "max_width": 40,
+              "style": "folder",
+              "max_depth": 4,
               "folder_separator_icon": "/",
               "trim_leading_dots": true,
               "trim_prefix": false,
