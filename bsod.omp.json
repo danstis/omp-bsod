@@ -20,12 +20,9 @@
             "powerline_symbol": "\ue0b0",
             "properties": {
               "home_icon": "~",
-              "style": "agnoster",
+              "style": "powerlevel",
               "max_width": 40,
-              "folder_separator_icon": "/",
-              "trim_leading_dots": true,
-              "trim_prefix": true,
-              "trim_parent_folders": true
+              "folder_separator_icon": "/"
             },
             "style": "powerline",
             "template": " \uf07c {{ .Path }} ",
