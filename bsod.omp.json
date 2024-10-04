@@ -30,7 +30,7 @@
             "style": "powerline",
             "template": " \uf07c {{ .Path }} ",
             "type": "path"
-          },
+          }, 
           {
             "background": "#4e9a06",
             "background_templates": [
