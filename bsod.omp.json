@@ -136,7 +136,7 @@
             "invert_powerline": true,
             "powerline_symbol": "\ue0b2",
             "style": "powerline",
-            "template": " \ufd03 Az {{ .Name }} ",
+            "template": " \uebd8 Az {{ .Name }} ",
             "properties": {
               "source": "pwsh"
             },
@@ -149,7 +149,7 @@
             "invert_powerline": true,
             "powerline_symbol": "\ue0b2",
             "style": "powerline",
-            "template": " \ufd03 CLI {{ .Name }} ",
+            "template": " \uebd8 CLI {{ .Name }} ",
             "properties": {
               "source": "cli"
             },

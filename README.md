@@ -13,8 +13,13 @@ This theme has been built for [oh-my-posh](https://ohmyposh.dev/). To install an
 - Install oh-my-posh `winget install JanDeDobbeleer.OhMyPosh`
 - Install the FiraCode or CaskaydiaCove Nerd Font with `sudo oh-my-posh font install`
 - Add the following to the PS profile (`code $PROFILE`):
+
 ```Powershell
 Import-Module posh-git
 oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/danstis/omp-bsod/main/bsod.omp.json' | Invoke-Expression
 $env:POSH_AZURE_ENABLED = $true
 ```
+
+## Development
+
+Icon codes can be checked in the [Nerd fonts cheat-sheet](https://www.nerdfonts.com/cheat-sheet).
