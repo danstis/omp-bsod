@@ -149,7 +149,7 @@
             "invert_powerline": true,
             "powerline_symbol": "\ue0b2",
             "style": "powerline",
-            "template": " \ue754 CLI {{ .Name }} ",
+            "template": " \uebd8 CLI {{ .Name }} ",
             "properties": {
               "source": "cli"
             },
